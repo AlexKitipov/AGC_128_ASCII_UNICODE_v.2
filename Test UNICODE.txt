@@ -1,0 +1,81 @@
+# 🌍 **UNICODE / MULTILINGUAL / EMOJI / SYMBOLS TEST BLOCK**
+
+This is a Unicode test paragraph designed to stress‑test encoding and decoding of UTF‑8 characters of all lengths (1‑byte, 2‑byte, 3‑byte, and 4‑byte).  
+If your AGC‑128 V2 implementation can encode and decode this entire block **without corruption**, then your Unicode pipeline is working correctly.
+
+---
+
+## **🌐 Multilingual text (2–3 byte UTF‑8)**
+
+Български текст за тест — кирилица трябва да се запази точно.  
+Ελληνικό κείμενο για δοκιμή — ελληνικά γράμματα.  
+Текст на српском језику — ћирилица + латиница.  
+日本語テキスト — 漢字・ひらがな・カタカナ。  
+한국어 테스트 문장입니다.  
+हिन्दी परीक्षण वाक्य।  
+العربية نص اختبار.  
+עברית טקסט בדיקה.  
+
+---
+
+## **😀 Emoji block (4‑byte UTF‑8)**
+
+😀😁😂🤣😅😇😉😍🤩🤔😴😎🤖👾👻💡🔥✨🌍🌱🌈🎵🎶🎧🎮🧬🧠🛠️📦📚📜📝🔧🔍  
+❤️🧡💛💚💙💜🖤🤍🤎  
+👍👎👌🤌🤝🙏👏🙌💪  
+🚀🛸🛰️🌌🌙⭐☀️⚡🌪️🌊  
+
+---
+
+## **✍️ Punctuation, diacritics, accents**
+
+àáâãäå èéêë ìíîï òóôõö ùúûü ñ ç  
+ă â î ș ț ğ ı ł ø æ œ  
+« Guillemets » — „Български кавички“ — “English quotes” — 『日本語』  
+
+---
+
+## **💱 Currency symbols**
+
+€ £ ¥ ₩ ₺ ₽ ₹ ₴ ₦ ₲ ₡ ₱  
+฿ ៛ ₭ ₫  
+
+---
+
+## **➕ Math & logic symbols**
+
+± × ÷ ≠ ≈ ≤ ≥ ∞ ∑ ∏ √ ∫ ∂ ∆ ∇  
+→ ← ↑ ↓ ↔ ↕ ⇐ ⇒ ⇔  
+∧ ∨ ∩ ∪ ∈ ∉ ∅ ∀ ∃  
+
+---
+
+## **🧱 Box‑drawing characters**
+
+│ ─ ┼ ┤ ├ ┐ ┌ ┘ └  
+═ ║ ╬ ╣ ╠ ╗ ╔ ╝ ╚  
+
+---
+
+## **🧩 Mixed Unicode torture test**
+
+AGC‑128‑V2‑TEST → “Тест №42: 𝓤𝓷𝓲𝓬𝓸𝓭𝓮 𝕄𝕠𝕕𝕮𝕙𝕒𝕠𝕤”  
+Full‑width: ＡＢＣ１２３＠＃％＆  
+Superscripts: ¹²³⁴⁵⁶⁷⁸⁹⁰  
+Subscripts: ₁₂₃₄₅₆₇₈₉₀  
+Circled: Ⓐ Ⓑ Ⓒ ⓐ ⓑ ⓒ  
+Braille: ⠁⠃⠉⠙⠑⠛⠓⠚  
+
+---
+
+## **END‑OF‑UNICODE‑TEST**
+
+Ако AGC‑128 V2 успее да:
+
+- encode → decode  
+- без загуба  
+- без счупени емоджита  
+- без объркани дължини  
+- без грешки в Length Gene  
+
+…тогава твоят Unicode engine е **официално стабилен**
