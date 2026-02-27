@@ -1,0 +1,21 @@
+This is a sample text created specifically for testing a custom text editor that can encode and decode text in different formats. The main goal of this paragraph is to verify that the editor correctly preserves all characters, including letters, numbers, punctuation, whitespace, and special symbols. If the encoded version of this text can be successfully decoded back to this exact content, without any missing or changed characters, then the core logic of the editor is working correctly. You can also use this text to test copy, paste, undo, redo, and any other features you have implemented in your application.
+
+Below this paragraph, you will find a long sequence of ASCII characters and extended symbols that you can use for more advanced testing. Make sure that your editor handles every single one of them without corruption, truncation, or unintended modifications.
+
+ASCII / extended characters test block:
+
+!"#
+%^&()_+-=[]{};':",.<>/?\|
+000111222333444555666777888999
+AAAaaaBBBbbbCCCcccDDDdddEEEeeeFFFfff
+~~!!@@##$$%%^^&&*(())__++--==//\\
+| || ||| |||| ||||| |||||
+END-OF-LINE-TEST-->____<--END-OF-LINE-TEST
+[TEST-BLOCK-START]
+Test_123-ABC-xyz-999
+Code: X1Y2-Z3W4-TEST-0001
+Path-like /folder/subfolder/file.txt
+Email-like test@example.com
+URL-like https://example.com/test?param=1&other=2
+Tabs    and spaces  mixed   together
+[TEST-BLOCK-END]
